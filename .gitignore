@@ -1,0 +1,11 @@
+tonchidot.keystore
+/bin
+/doc
+/gen
+/reports
+/tests/bin
+/tests/gen
+/tests/reports
+/proguard
+.DS_Store
+

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:id="@+id/relativeLayout1"
+	android:layout_width="match_parent" android:background="@drawable/business_back"
+	android:padding="10dip">
+	<ImageView android:id="@+id/image_contact" android:scaleType="fitCenter"
+		android:src="@drawable/vcard_default" android:layout_width="80dp"
+		android:layout_height="80dp" />
+	<ImageButton android:src="@drawable/profile_edit"
+		android:layout_width="wrap_content" android:id="@+id/button_contact"
+		android:layout_height="wrap_content" android:layout_below="@+id/image_contact"
+		android:layout_alignRight="@+id/image_contact"
+		android:layout_marginTop="10dip"></ImageButton>
+
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:orientation="vertical"
+		android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/image_contact"
+		android:layout_alignTop="@+id/image_contact">
+		<LinearLayout android:id="@+id/layout_profile_data"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:text="@string/no_contact_selected"
+				style="@style/TextTitle" android:id="@+id/text_contact_name"></TextView>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

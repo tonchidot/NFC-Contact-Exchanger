@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_write_tag" android:icon="@android:drawable/ic_menu_edit"
+		android:title="@string/menu_write_tag" />
+	<item android:id="@+id/menu_history" android:icon="@android:drawable/ic_menu_recent_history"
+		android:title="@string/menu_history" />
+	<item android:id="@+id/menu_qrcode_export" android:title="@string/menu_qrcode_export" />
+	<item android:id="@+id/menu_qrcode_import" android:title="@string/menu_qrcode_import" />
+</menu>

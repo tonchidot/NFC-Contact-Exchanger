@@ -1,0 +1,11 @@
+This application shows how you can exchange contact information over NFC. This requires Android 2.3.3 and a phone that has NFC. Even though you can use and run the app on 2.2 and just use QR Codes to exchange. But that will require the Barcode Scanner app to be installed.
+
+----------
+
+If you try to compile and run this application, you should set the following lines to a valid key or uncomment the things that will misbehave.
+
+src/com/tonchidot/nfc_contact_exchanger/lib/PictureUploader.java - Line 27
+imgur key
+
+res/values/strings.xml - Line 4
+Google analytics key

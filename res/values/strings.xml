@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC Contact Exchanger</string>
+    <string name="ga_api_key">YOUR GOOGLE ANALYTICS KEY</string>
+    <string name="no_contact_selected">No contact selected</string>
+    <string name="write_tag_info">Please hold the NFC Tag to the back of the phone to write the contact.</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_sort_name">Sort by name</string>
+    <string name="menu_sort_date">Sort by date</string>
+    <string name="menu_map">Show on map</string>
+    <string name="menu_write_tag">Write tag</string>
+    <string name="menu_history">History</string>
+    <string name="menu_qrcode_export">QRCode export</string>
+    <string name="menu_qrcode_import">QRCode import</string>
+    <string name="activity_write_tag">Write contact to NFC tag</string>
+    <string name="activity_contact">Received Contact</string>
+    <string name="activity_history">History</string>
+    <string name="activity_history_map">History Map</string>
+    <string name="write_tag_success">Contact was successfully written to Tag</string>
+    <string name="write_tag_failed_format">Failed to format tag.</string>
+    <string name="write_tag_failed_ndef">Tag doesn\'t support NDEF.</string>
+    <string name="write_tag_failed">Failed to write tag.</string>
+    <string name="write_tag_failed_size">"Tag capacity is %1$d bytes, message is %2$d bytes.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:contacter="http://schemas.android.com/apk/res/com.tonchidot.nfc_contact_exchanger"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:orientation="vertical" android:gravity="center_horizontal|center"
+		android:layout_weight="1" android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<com.tonchidot.nfc_contact_exchanger.widgets.BusinessCardWidget
+			android:layout_width="match_parent" android:id="@+id/businesscard"
+			android:layout_height="220dp" contacter:showEditButton="true"
+			android:layout_marginBottom="20dp" android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+		<ListView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:id="@+id/list_contacts"
+			android:cacheColorHint="@color/blue"></ListView>
+	</LinearLayout>
+</LinearLayout>

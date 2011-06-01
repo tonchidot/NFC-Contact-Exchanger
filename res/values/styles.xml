@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TextTitle">
+		<item name="android:textSize">22dp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+
+
+
+
+	<!-- Theme -->
+	<color name="blueLight">#6791A2</color>
+	<color name="blue">#3A5A73</color>
+	<color name="blueDark">#033356</color>
+	<color name="red">#9C1019</color>
+	<color name="black">#202020</color>
+	<color name="blackLight">#404040</color>
+	<color name="grayLight">#D8D8D8</color>
+
+	<style name="CustomWindowTitleBackground">
+		<item name="android:background">@color/blue</item>
+	</style>
+	<style name="CustomWindowTitle" parent="@android:style/WindowTitle">
+		<item name="android:textSize">16dip</item>
+		<item name="android:textColor">@color/grayLight</item>
+		<item name="android:paddingLeft">10dip</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">0</item>
+		<item name="android:shadowRadius">5</item>
+		<item name="android:shadowColor">@color/blueDark</item>
+	</style>
+	<style name="Theme" parent="@android:style/Theme.Light">
+		<item name="android:windowTitleSize">35dip</item>
+		<item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+		<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+		<item name="android:windowBackground">@color/blue</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:textSize">16dp</item>
+	</style>
+</resources>

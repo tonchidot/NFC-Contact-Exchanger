@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:paddingLeft="10dip"
+			android:paddingRight="10dip" android:id="@+id/linearLayout1"
+			android:orientation="vertical" android:gravity="center_vertical">
+			<TextView android:id="@+id/text_meet_date"
+				android:textColor="@color/grayLight" android:gravity="right"
+				android:layout_height="wrap_content" android:text="Date/Time"
+				android:layout_width="match_parent"></TextView>
+			<com.tonchidot.nfc_contact_exchanger.widgets.BusinessCardWidget
+				android:id="@+id/businesscard" android:layout_height="220dp"
+				android:layout_width="match_parent" android:layout_marginTop="10dp" />
+			<TextView android:id="@+id/text_meet_place"
+				android:textColor="@color/grayLight" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Place Meet"
+				android:layout_marginTop="10dp"></TextView>
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/image_map"></ImageView>
+		</LinearLayout>
+	</ScrollView>
+	<Button android:layout_height="wrap_content" android:paddingTop="10dip"
+		android:text="Add to Contacts" android:id="@+id/button_add"
+		android:layout_width="match_parent"></Button>
+</LinearLayout>
