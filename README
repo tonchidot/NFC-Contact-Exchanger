@@ -1,5 +1,7 @@
 This application shows how you can exchange contact information over NFC. This requires Android 2.3.3 and a phone that has NFC. Even though you can use and run the app on 2.2 and just use QR Codes to exchange. But that will require the Barcode Scanner app to be installed.
 
+QR Code export/import depends on "Barcode Scanner" from ZXing Team. If it is not installed the app will crash when clicking on the QR Code menu buttons. Download Barcode Scanner here: https://market.android.com/details?id=com.google.zxing.client.android
+
 ----------
 
 If you try to compile and run this application, you should set the following lines to a valid key or uncomment the things that will misbehave.
